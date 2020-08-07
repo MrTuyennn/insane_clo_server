@@ -14,7 +14,7 @@ exports.getData_product = (req,res) => {
 
 exports.getData_limit = (req,res) => {
     try {
-        Product.find({}).limit(4)
+        Product.find({}).limit(6)
         .then(data =>{
             res.send(data)
             console.log(data)
