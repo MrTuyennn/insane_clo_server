@@ -10,6 +10,7 @@ router.post("/delete-data/:id",production.delete_product);
 const product = require('../apis/product')
 router.get("/product-data",product.getData_product);
 router.get("/product-limit",product.getData_limit)
+router.get("/product-limit-data",product.getData_limit_data)
 
 const user = require('../controllers/user')
 router.post("/singup",user.SingUp)
