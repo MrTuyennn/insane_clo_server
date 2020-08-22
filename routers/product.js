@@ -16,7 +16,7 @@ const user = require('../controllers/user')
 router.post("/singup",user.SingUp)
 router.post("/singin",user.SingIn)
 router.post("/update_user/:id",user.update_user)
-router.post("/change_passwor/:id",user.change_password)
+router.post("/change_password/:id",user.change_password)
 router.get("/getdata-user/:id",user.get_user_id)
 router.get("/data-user",user.getData_user)
 
